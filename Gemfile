@@ -10,6 +10,7 @@ group :development, :test do
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.1'
+# Another comment to check Git
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
