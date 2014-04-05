@@ -1,10 +1,22 @@
-<header class="navbar-fixed-top navbar-inverse">
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+
   <div class = "container">
-    <%= link_to "likenstrike.me", '#', id: "logo" %>
-    <ul class ="nav nav-pills pull-right">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">likenstrike.me</a>
+    </div>
+    <div class="navbar-collapse collapse" style="height: auto;">
+    <%#= link_to "likenstrike.me", '#', id: "logo" %>
+    <ul class ="nav navbar-nav">
       <li><%= link_to "Home",    root_path %></li>
       <li><%= link_to "Help",    help_path %></li>
       <li><%= link_to "Sign In", '#' %></li>
     </ul>
+    </div>
   </div>
-</header>
+</div>
