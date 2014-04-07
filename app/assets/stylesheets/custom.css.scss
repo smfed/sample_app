@@ -31,39 +31,63 @@ textarea {
 
 .container-width{
   /* custom width */
-  max-width:960px;
+  max-width:860px;
 }
 
 .row-centered {
   text-align:center;
 }
 /*randomolgy */
-
-.green-jumbo {
-  background-color: lightgreen;
+.jumbo-bet {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   height: 200px;
+  margin-bottom: 10px;
+}
+.green-jumbo {
+  background-color: lightgreen;
+
 }
 .blue-jumbo {
   background-color: lightblue;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  height: 200px;
+
 }
 .red-jumbo {
   background-color: lightcoral;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  height: 200px;
+
 }
 .purple-jumbo {
   background-color: mediumpurple;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  height: 200px;
 }
 
+.col-paddings-small {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cont-paddings-small {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.like-bar-row {
+  margin-top: 30px;
+}
+.like-bar {
+  border-radius: 20px;
+  height:40px;
+  width: 220px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: whitesmoke;
+  background-color: lightskyblue;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:26px;
+  color: antiquewhite;
+  text-align: center;
+  vertical-align:middle;
+  ;
+}
 
 /* typography */
 
@@ -91,6 +115,7 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
 
 
 /* header */
