@@ -28,6 +28,16 @@ describe "StaticPages" do
 
   end
 
+  describe "Recent Bets" do
+    before { visit recent_path }
+
+    let (:heading) {'Recent Bets'}
+    let (:page_title) {'Recent Bets'}
+
+    it_should_behave_like "all static pages"
+
+  end
+
   describe "About page" do
     before { visit about_path }
 

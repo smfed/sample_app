@@ -29,6 +29,42 @@ textarea {
   }
 }
 
+.container-width{
+  /* custom width */
+  max-width:960px;
+}
+
+.row-centered {
+  text-align:center;
+}
+/*randomolgy */
+
+.green-jumbo {
+  background-color: lightgreen;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 200px;
+}
+.blue-jumbo {
+  background-color: lightblue;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 200px;
+}
+.red-jumbo {
+  background-color: lightcoral;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 200px;
+}
+.purple-jumbo {
+  background-color: mediumpurple;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  height: 200px;
+}
+
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -99,4 +135,5 @@ footer {
       margin-left: 10px;
     }
   }
+
 }
