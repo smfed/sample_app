@@ -39,8 +39,13 @@ textarea {
 }
 /*randomolgy */
 .jumbo-bet {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-family: Impact, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
   height: 200px;
   margin-bottom: 10px;
 }
@@ -81,7 +86,8 @@ textarea {
   border-color: whitesmoke;
   background-color: lightskyblue;
   font-weight: bold;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Impact;
+  text-shadow:none;
   font-size:26px;
   color: antiquewhite;
   text-align: center;
