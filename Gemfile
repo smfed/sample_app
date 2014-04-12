@@ -19,6 +19,7 @@ gem 'sprockets', '2.11.0'
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 # Use Uglifier as compressor for JavaScript assets
