@@ -1,0 +1,21 @@
+<% provide(:title, "Sign in") %>
+<h1>Sign in</h1>
+<div class = "container">
+<div class="col-md-4 col-sm-4 col-sm-offset-4 col-md-offset-4">
+
+
+    <%= form_tag sessions_path do  %>
+
+          <%= label_tag(:email) %>
+          <%= text_field_tag :email, nil,class: "form-control", placeholder:"Input your name"%>
+
+          <%= label_tag(:password) %>
+          <%= password_field_tag :password , nil, class: "form-control", placeholder: "Input your password"%>
+
+          <%= submit_tag("Sign In", class: "btn btn-primary") %>
+    <% end %>
+
+    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
+
+</div>
+</div>
